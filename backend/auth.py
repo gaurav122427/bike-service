@@ -9,10 +9,10 @@ SECRET_KEY = os.getenv("SECRET_KEY", "change-this-in-production-use-a-long-rando
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_HOURS = 24
 
-ADMIN_USERNAME = os.getenv("ADMIN_USERNAME", "admin")
+ADMIN_USERNAME = os.getenv("ADMIN_USERNAME", "kwick_admin")
 ADMIN_PASSWORD_HASH = os.getenv(
     "ADMIN_PASSWORD_HASH",
-    "$2b$12$Lb.4KDCceQevQ7Bfc/o4F.wf9O9hgXJiPHJVzrUyVJIdfK/eHX2SW",
+    "$2b$12$MEtI7wiPii/zDxx7dLux3uMQyo7YpZpXsfgMbfJRyyJO11tOT6GFS",
 )
 
 bearer_scheme = HTTPBearer()
